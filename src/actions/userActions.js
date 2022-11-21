@@ -71,7 +71,7 @@ export const deleteUser=(userid)=>async dispatch=>{
         window.location.reload()
     } catch (error) {
         alert('Something went wrong')
-        console.log(error);
+        console.log(error)
     }
 
 }
